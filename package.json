@@ -1,0 +1,19 @@
+{
+  "name": "phenix-guy-whatsapp-bot",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PHENIX GUY WhatsApp bot with image menu, command registry, and Pterodactyl support",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "sharp": "^0.33.5"
+  }
+}
